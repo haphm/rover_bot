@@ -8,7 +8,6 @@ Panels:
         - /Status1
         - /TF1
         - /RobotModel1
-        - /RobotModel1/Status1
       Splitter Ratio: 0.5
     Tree Height: 719
   - Class: rviz_common/Selection
@@ -137,7 +136,7 @@ Visualization Manager:
   Enabled: true
   Global Options:
     Background Color: 48; 48; 48
-    Fixed Frame: base_link
+    Fixed Frame: odom
     Frame Rate: 30
   Name: root
   Tools:
@@ -180,25 +179,25 @@ Visualization Manager:
   Views:
     Current:
       Class: rviz_default_plugins/Orbit
-      Distance: 2.8563530445098877
+      Distance: 4.016734600067139
       Enable Stereo Rendering:
         Stereo Eye Separation: 0.05999999865889549
         Stereo Focal Distance: 1
         Swap Stereo Eyes: false
         Value: false
       Focal Point:
-        X: -0.15687678754329681
-        Y: 0.23501458764076233
-        Z: 0.04564929008483887
+        X: 0
+        Y: 0
+        Z: 0
       Focal Shape Fixed Size: true
       Focal Shape Size: 0.05000000074505806
       Invert Z Axis: false
       Name: Current View
       Near Clip Distance: 0.009999999776482582
-      Pitch: 0.6553980708122253
+      Pitch: 0.4503980278968811
       Target Frame: <Fixed Frame>
       Value: Orbit (rviz)
-      Yaw: 0.8653940558433533
+      Yaw: 0.5103941559791565
     Saved: ~
 Window Geometry:
   Displays:
